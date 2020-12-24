@@ -1,0 +1,22 @@
+[2020-09-09 20:07:53.082] [exthost] [info] extension host started
+[2020-09-09 20:07:53.320] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onLanguage:cpp"}
+[2020-09-09 20:07:53.321] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-vscode.cpptools-0.29.0/dist/main
+[2020-09-09 20:07:53.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-09-09 20:07:53.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2020-09-09 20:07:53.416] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-09-09 20:07:53.416] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/extension
+[2020-09-09 20:07:53.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-09-09 20:07:53.574] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2020-09-09 20:07:53.844] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-09-09 20:07:53.844] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2020-09-09 20:07:53.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-09-09 20:07:53.899] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/extension
+[2020-09-09 20:07:53.925] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-09-09 20:07:53.925] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/search-result/dist/extension.js
+[2020-09-09 20:07:53.927] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-09-09 20:07:53.928] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/vscode-account/dist/extension.js
+[2020-09-09 20:07:53.987] [exthost] [info] eager extensions activated
+[2020-09-09 20:10:07.636] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2020-09-09 20:10:07.636] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2020-09-09 20:10:07.636] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2020-09-09 20:10:07.636] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.

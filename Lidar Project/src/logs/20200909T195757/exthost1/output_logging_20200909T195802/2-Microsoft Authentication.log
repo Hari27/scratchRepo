@@ -1,0 +1,4 @@
+[Error  - 19:58:03.510] Migrating token failed: Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
+[Error  - 19:58:03.695] Getting token failed: Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
+[Error  - 19:58:33.698] Getting token failed: Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
+[Error  - 19:59:03.699] Getting token failed: Error: Unknown or unsupported transport 'disabled' for address 'disabled:'
