@@ -35,7 +35,7 @@ struct KdTree
 		}		
 		else
 		{
-			uint cd =depth % 2;
+			uint cd =depth % 3;
 
 			if(point[cd] < ((*node)->point[cd]))
 				insertHelper(&((*node)->left), depth+1, point, id);
@@ -59,24 +59,27 @@ struct KdTree
 		float x2 = target[0] - distanceTol;
 		float y1 = target[1] + distanceTol;
 		float y2 = target[1] - distanceTol;
+        float z1 = target[2] + distanceTol;
+		float z2 = target[2] - distanceTol;
 		
 		if(node!=NULL)
 		{
 			// check if the point is inside or outside the box. 
 			float point_x1 = ((node)->point[0]); 
-			float point_y1 = ((node)->point[1]); 
-			if ((point_x1 >= x2) && (point_x1 <= x1) && (point_y1 >= y2) && (point_y1 <= y1))
+			float point_y1 = ((node)->point[1]);
+            float point_z1 = ((node)->point[2]); 
+			if ((point_x1 >= x2) && (point_x1 <= x1) && (point_y1 >= y2) && (point_y1 <= y1) && (point_z1 >= z2) && (point_z1 <= z1))
 			{
 				// calculate distance threshold.
-				float d =  pow(pow((point_x1 - target[0]),2) + pow((point_y1 - target[1]),2),0.5);
+				float d =  pow(pow((point_x1 - target[0]),2) + pow((point_y1 - target[1]),2) + pow((point_z1 - target[2]),2),0.5);
 				if (d < distanceTol)
 				{
 					ids.push_back((node)->id);	
 				} 
 			}
-			if((target[depth%2]-distanceTol)< node->point[depth%2])
+			if((target[depth%3]-distanceTol)< node->point[depth%3])
 				searchHelper(target,node->left,depth+1,distanceTol,ids);			
-			if((target[depth%2]+distanceTol)>node->point[depth%2])
+			if((target[depth%3]+distanceTol)>node->point[depth%3])
 				searchHelper(target,node->right,depth+1,distanceTol,ids);
 		}	
 		
