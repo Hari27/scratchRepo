@@ -1,0 +1,8 @@
+1. The combination of the FAST detector and the ORB descriptor has the best overall 
+timing performance. 
+
+2. The second best performance is observed with detector FAST and the descriptor FREAK.
+
+3. The third best performance is observed with detector FAST and the descriptor BRIEF.
+
+The overall conclusions are drawn based on the total time and the number of matched points.
